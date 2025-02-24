@@ -1,0 +1,103 @@
+
+<html>
+    <head>
+        <title></title>
+        <!-- <link rel="stylesheet" href="styleabout1.css" > -->
+        <style>
+            ul
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden; 
+                transition: all 0.2s linear;
+            }
+            li
+            {
+                float: right;
+            }
+            li a
+            {
+                display: block;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                transform: skew(25deg);
+            }
+            li a:hover
+            {
+                background-color: blueviolet;
+            }
+            body
+            {
+                background-image: url(blue-background-high-quality-free-photo.jpg);
+                background-repeat: no-repeat;
+                top: 0px;
+                background-size: 100%;
+            }
+            form
+            {
+                position: absolute;
+                top: 300px;
+                left: 550px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="contactus.html" class="active">ContactUs</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <img src="markrt logo.jpg" width="10%" height="10%" style="float: left;">
+        </ul>
+        <center>
+            <h1 style="position: absolute; top: 200px; left: 400px;">DEMART ONLINE ORDER FORM</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>CUSTOMER NAME</label></td>
+                        <td><input type="text" value="  "/></td>
+                    </tr>
+                    <tr>
+                        <td><label>CUSTOMER NUMBER</label></td>
+                        <td><input type="number"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>CUSTOMER EMIL</label></td>
+                        <td><input type="email" value="@gmail.com"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>YOURS ORDER?</label></td>
+                        <td>
+                            Snack Foods   <input type="checkbox"/><br>
+                            Frozen Foods  <input type="checkbox"/><br>
+                            BRACELET      <input type="checkbox"/><br>
+                            BreadK        <input type="checkbox"/><br>
+                            milk          <input type="checkbox"/><br>
+                            egg           <input type="checkbox"/><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>ADDRESS</label></td>
+                        <td><input type="text" value="Street Address"/></td>
+                        <td><input type="text" value="city"/></td>
+                        <td><input type="text" value="state"/></td>
+                        <td><input type="text" value="postal/zip code"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>PREFERRED DELIVERY DATE*</label></td>
+                        <td><input type="date"/></td>
+                    </tr>
+                </table>
+            </form>
+            <h2 style=" color: gold; position: absolute; top: 650px; left: 770px;">Verification*</h2>
+            <form style="position: absolute; top: 720px; left: 770px;">
+                i'm not a robot<input type="checkbox"/>
+            </form>
+            <button style="background-color: black; color: white; position: absolute; top: 760px; left: 770px;">SUBMIT FORM</button>
+        </center>
+    </body>
+</html>
